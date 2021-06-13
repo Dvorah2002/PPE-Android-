@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".menuprincipal">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/logopetit" />
+
+    <TextView
+        android:id="@+id/Menuprincipal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="Menu principal"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="207dp">
+
+        <Button
+            android:id="@+id/btninfovisiteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="Saisit des Information Visiteur" />
+
+        <Button
+            android:id="@+id/btnfraisforfait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="FRAIS AU FORFAIT" />
+
+        <Button
+            android:id="@+id/btnfraishorsforfait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="FRAIS HORS FORFAIT" />
+
+        <Button
+            android:id="@+id/btnsynthese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="SYNTHESE DU MOIS" />
+
+        <Button
+            android:id="@+id/btnenvoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="ENVOI DES DONNEES VERS UP" />
+
+        <Button
+            android:id="@+id/btnparametres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="unclique"
+            android:text="PARAMETRE" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
